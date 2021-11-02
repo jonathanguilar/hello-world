@@ -9,12 +9,12 @@ const SectionQuote = () => {
         <Section className='section-quote bg-white text-black dark:bg-black dark:text-white'>
             <Quote
                 author={{
-                    name: 'John Doe',
+                    name: 'Piotr Mynarski',
                     image: img_author,
-                    title: 'Lorem ipsum dolor'
+                    title: 'CTO'
                 }}
             >
-                <Highlight>Lorem ipsum dolor sit amet</Highlight>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis magna etiam tempor orci eu lobortis elementum. 
+                <Highlight>“Whether you’re hosting your web servers on premises or want to go hybrid,</Highlight> Akamai offers the perfect solutions when you’re growing worldwide and need to ensure the best performance and availability." 
             </Quote>
         </Section>
     )

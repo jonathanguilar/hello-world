@@ -23,13 +23,12 @@ const Home = () => {
         <Layout>
             <SectionHero />
 
-            <Overlap offset='-mb-20 lg:-mb-96'>
+            {/* <Overlap offset='-mb-20 lg:-mb-96'>
                 <Img image={img_dashboard} />
-            </Overlap>
+            </Overlap>  */}
 
-            <SectionSteps />
 
-            <Overlap offset='-mt-48'>
+             {/* <Overlap offset='-mt-48'>
                 <BubbleCta
                     icon={<Img className='w-20 h-20' image={img_heart} />}
                     title='Design Your World'
@@ -50,21 +49,23 @@ const Home = () => {
                         </button>
                     </Actions>
                 </BubbleCta>
-            </Overlap>
+            </Overlap> */}
 
-            <SectionGallery />
+            {/* <SectionGallery />  */}
             
-            <SectionInspirational />
-
-            <SectionTimeline />
+            {/* <SectionInspirational /> */}
+{/* 
+            <SectionTimeline />  */}
 
             <SectionQuote />
 
-            <SectionTerminal />
+            <SectionSteps />
 
-            <SectionRecommendations />
+            {/* <SectionTerminal /> */}
 
-            <SectionLegend />
+            {/* <SectionRecommendations /> */}
+{/* 
+            <SectionLegend /> */}
         </Layout>
     )
 }
