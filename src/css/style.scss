@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'variables';
+@import 'btn';
+@import 'image3d';
+@import 'link';
+@import 'slider';
+@import 'header';
+@import 'shell';
+@import 'steps';
+
+body {
+    @apply bg-white dark:bg-black;
+}

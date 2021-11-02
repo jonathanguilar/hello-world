@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1248" height="726" viewBox="0 0 1248 726">
+  <g id="Group_60" data-name="Group 60" transform="translate(-336 -815)">
+    <path id="Rectangle_5" data-name="Rectangle 5" d="M28,0H1220a28,28,0,0,1,28,28V75.728a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V28A28,28,0,0,1,28,0Z" transform="translate(336 815)" fill="#fff"/>
+    <path id="Rectangle_6" data-name="Rectangle 6" d="M0,0H1248a0,0,0,0,1,0,0V622.272a28,28,0,0,1-28,28H28a28,28,0,0,1-28-28V0A0,0,0,0,1,0,0Z" transform="translate(336 890.728)" fill="#fff"/>
+    <g id="Group_45" data-name="Group 45" transform="translate(366.291 849.835)">
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="9.087" cy="9.087" r="9.087" fill="#e3e3e3"/>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="9.087" cy="9.087" r="9.087" transform="translate(30.291)" fill="#e3e3e3"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="9.087" cy="9.087" r="9.087" transform="translate(60.583)" fill="#e3e3e3"/>
+    </g>
+    <rect id="Rectangle_32" data-name="Rectangle 32" width="1248" height="3.029" transform="translate(336 887.699)" fill="#f4f4f4"/>
+    <text id="_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16" data-name="1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16" transform="translate(456 959.854)" fill="#9d9ba3" font-size="18" font-family="Menlo-Regular, Menlo"><tspan x="-10.837" y="0">1</tspan><tspan x="-10.837" y="28">2</tspan><tspan x="-10.837" y="56">3</tspan><tspan x="-10.837" y="84">4</tspan><tspan x="-10.837" y="112">5</tspan><tspan x="-10.837" y="140">6</tspan><tspan x="-10.837" y="168">7</tspan><tspan x="-10.837" y="196">8</tspan><tspan x="-10.837" y="224">9</tspan><tspan x="-21.674" y="252">10</tspan><tspan x="-21.674" y="280">11</tspan><tspan x="-21.674" y="308">12</tspan><tspan x="-21.674" y="336">13</tspan><tspan x="-21.674" y="364">14</tspan><tspan x="-21.674" y="392">15</tspan><tspan x="-21.674" y="420">16</tspan></text>
+    <text id="_octocat-classifier_npm_install_eslint_eslint_7.8.1_added_109_packages_from_64_contributors_and_audited_109_packages_in_3.491s_9_packages_are_looking_for_funding_run_npm_fund_for_details_found_0_vulnerabilities_octocat-classifier" data-name="→ ~/octocat-classifier npm install eslint
++ eslint@7.8.1
+  added 109 packages from 64 contributors and audited 109 packages in 3.491s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+→ ~/octocat-classifier" transform="translate(545 960.001)" fill="#ff4519" font-size="18" font-family="Menlo-Regular, Menlo"><tspan x="0" y="0">→</tspan><tspan y="0" fill="#05020f"> </tspan><tspan y="0" fill="#0a9f43">~/octocat-classifier</tspan><tspan y="0" xml:space="preserve" fill="#05020f"> npm install eslint</tspan><tspan fill="#05020f"><tspan x="0" y="28">+ eslint@7.8.1</tspan><tspan x="0" y="56" xml:space="preserve">  added 109 packages from 64 contributors and audited 109 packages in 3.491s</tspan><tspan x="0" y="84"></tspan><tspan x="0" y="112">9 packages are looking for funding</tspan><tspan x="0" y="140" xml:space="preserve">  run `npm fund` for details</tspan><tspan x="0" y="168"></tspan><tspan x="0" y="196">found 0 vulnerabilities</tspan></tspan><tspan x="0" y="224">→</tspan><tspan y="224" fill="#05020f"> </tspan><tspan y="224" fill="#0a9f43">~/octocat-classifier</tspan></text>
+  </g>
+</svg>

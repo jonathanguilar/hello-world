@@ -1,0 +1,43 @@
+.swiper-scrollbar-drag {
+    background-color: theme('colors.accent-secondary') !important;
+}
+
+.caret-left {
+    display: inline-block;
+    width: 50px;
+    color: theme('colors.accent-secondary');
+    filter: url('../images/caret-filter.svg#goo');
+    transform: rotate(-90deg);
+
+    &::before {
+        content: "";
+        display: block;
+        padding-top: 60%;
+        background: currentColor;
+        clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    }
+
+    &:disabled {
+        color:gray;
+    }
+}
+
+.caret-right {
+    display: inline-block;
+    width: 50px;
+    color: theme('colors.accent-secondary');
+    filter: url('../images/caret-filter.svg#goo');
+    transform: rotate(90deg);
+
+    &::before {
+        content: "";
+        display: block;
+        padding-top: 60%;
+        background: currentColor;
+        clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    }
+
+    &:disabled {
+        color:gray;
+    }
+}

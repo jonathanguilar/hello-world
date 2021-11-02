@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-markdown-remark-frontmatter-slug-js",
+    "path": "/medium/",
+    "result": {"data":{"markdownRemark":{"html":"<p>Medium information</p>","frontmatter":{"slug":"/medium","title":"Medium"}}},"pageContext":{"id":"c9d84953-907e-5c23-8c4c-d67138bbc2b0","frontmatter__slug":"/medium","__params":{"frontmatter__slug":"medium"}}},
+    "staticQueryHashes": []}

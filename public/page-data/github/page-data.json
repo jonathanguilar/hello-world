@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-markdown-remark-frontmatter-slug-js",
+    "path": "/github/",
+    "result": {"data":{"markdownRemark":{"html":"<p>Github stuff goes here</p>","frontmatter":{"slug":"/github","title":"Github"}}},"pageContext":{"id":"267f8cbc-3d80-5ed2-aa40-6f5246add8f4","frontmatter__slug":"/github","__params":{"frontmatter__slug":"github"}}},
+    "staticQueryHashes": []}

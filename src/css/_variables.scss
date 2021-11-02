@@ -1,0 +1,35 @@
+@screen sm {
+    :root {
+        --container-width: theme('screens.sm');
+    }
+}
+
+@screen md {
+    :root {
+        --container-width: theme('screens.md');
+    }
+}
+
+@screen lg {
+    :root {
+        --container-width: theme('screens.lg');
+    }
+}
+
+@screen xl {
+    :root {
+        --container-width: theme('screens.xl');
+    }
+}
+
+@screen 2xl {
+    :root {
+        --container-width: theme('screens.2xl');
+    }
+}
+
+@for $i from 1 through 12 {
+    .steps .step .step__icon[data-count="#{$i}"] {
+        --count: #{$i};
+    }
+}

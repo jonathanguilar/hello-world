@@ -1,0 +1,83 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0.0;
+    }
+
+    to {
+        opacity: 1.0;
+    }
+}
+
+@keyframes popOut {
+    from {
+        top: 0;
+        right: -4px;
+    }
+
+    to {
+        top: -5px;
+        right: -10px;
+    }
+}
+
+.link:hover {
+    @apply text-accent-primary;
+}
+
+li.with-dropdown {
+    position: relative;
+
+    @apply flex flex-col items-start justify-start;
+
+    @screen lg {
+        @apply flex flex-row items-center justify-center;
+    }
+
+    i {
+        transition: all 0.2s linear;
+    }
+
+    &:hover {
+        i {
+            transform: translateY(-12px) rotate(-135deg);
+        }
+
+        & > .link {
+            @apply text-accent-primary;
+        }
+
+        .bar {
+            display: block;
+        }
+    }
+}
+
+li:not(.with-dropdown) .link {
+    position: relative;
+
+    &::after {
+        @screen sm {
+            display: none !important;
+        }
+
+        @screen lg {
+            display: block !important;
+        }
+        
+        transition: all 0.5s linear;
+    }
+
+    &:hover::after {
+        opacity: 0.0;
+        animation: fadeIn 0.2s linear forwards alternate, popOut 0.2s linear forwards alternate;
+        content: '';
+        position: absolute;
+        top: 0;
+        right: -4px;
+        background-image: url('../images/chevron-active.svg');
+        background-repeat: no-repeat;
+        transform: rotate(-135deg);
+        width: 11px;
+        height: 6px;
+    }
+}

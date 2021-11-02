@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_65" data-name="Group 65" transform="translate(-1119 -12047)">
+    <g id="Rectangle_50" data-name="Rectangle 50" transform="translate(1119 12047)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="facebook" d="M23.442,11.793A11.722,11.722,0,1,0,9.887,23.443V15.2H6.913V11.794H9.89v-2.6c0-2.955,1.751-4.587,4.427-4.587a17.928,17.928,0,0,1,2.624.23v2.9H15.463A1.7,1.7,0,0,0,13.554,9.58v2.212H16.8L16.285,15.2H13.553v8.241A11.774,11.774,0,0,0,23.442,11.793Z" transform="translate(1119.002 12047.001)" fill="#009cde"/>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+.header {
+    .nav {
+        .item {
+            &:first-child {
+                @apply ml-0;
+
+                @screen lg {
+                    @apply ml-auto;
+                }
+            }
+
+            &:not(:first-child) {
+                @apply ml-0;
+
+                @screen lg {
+                    @apply ml-12;
+                }
+            }
+
+            &:not(:last-child):hover {
+                @apply text-accent-primary;
+            }
+
+            &:hover {
+                .drop-down {
+                    display: block;
+                }
+
+                .arrow {
+                    display: none;
+
+                    @screen lg {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

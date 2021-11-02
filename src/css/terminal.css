@@ -1,0 +1,255 @@
+/**
+ * VS theme by Andrew Lock (https://andrewlock.net)
+ * Inspired by Visual Studio syntax coloring
+ */
+
+ code[class*="language-"],
+ pre[class*="language-"] {
+     color: black;
+     background: none;
+     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+     font-size: 1em;
+     text-align: left;
+     white-space: pre;
+     word-spacing: normal;
+     word-break: normal;
+     word-wrap: normal;
+     line-height: 1.5;
+ 
+     -moz-tab-size: 4;
+     -o-tab-size: 4;
+     tab-size: 4;
+ 
+     -webkit-hyphens: none;
+     -moz-hyphens: none;
+     -ms-hyphens: none;
+     hyphens: none;
+ }
+ 
+ /* Code blocks */
+ pre[class*="language-"] {
+     position: relative;
+     background-color: #fdfdfd;
+     background-size: 3em 3em;
+     background-origin: content-box;
+     background-attachment: local;
+     margin: .5em 0;
+     padding: 0 1em;
+ }
+ 
+ pre[class*="language-"] > code {
+     display: block;
+ }
+ 
+ /* Inline code */
+ :not(pre) > code[class*="language-"] {
+     position: relative;
+     padding: .2em;
+     border-radius: 0.3em;
+     color: #c92c2c;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+     display: inline;
+     white-space: normal;
+     background-color: #fdfdfd;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+ 
+ .token.comment,
+ .token.block-comment,
+ .token.prolog,
+ .token.doctype,
+ .token.cdata {
+     color: #7D8B99;
+ }
+ 
+ .token.punctuation {
+     color: #5F6364;
+ }
+ 
+ .token.property,
+ .token.tag,
+ .token.boolean,
+ .token.number,
+ .token.function-name,
+ .token.constant,
+ .token.symbol,
+ .token.deleted {
+     color: #c92c2c;
+ }
+ 
+ .token.selector,
+ .token.attr-name,
+ .token.string,
+ .token.char,
+ .token.function,
+ .token.builtin,
+ .token.inserted {
+     color: #2f9c0a;
+ }
+ 
+ .token.operator,
+ .token.entity,
+ .token.url,
+ .token.variable {
+     color: #a67f59;
+     background: rgba(255, 255, 255, 0.5);
+ }
+ 
+ .token.atrule,
+ .token.attr-value,
+ .token.keyword,
+ .token.class-name {
+     color: #1990b8;
+ }
+ 
+ .token.regex,
+ .token.important {
+     color: #e90;
+ }
+ 
+ .language-css .token.string,
+ .style .token.string {
+     color: #a67f59;
+     background: rgba(255, 255, 255, 0.5);
+ }
+ 
+ .token.important {
+     font-weight: normal;
+ }
+ 
+ .token.bold {
+     font-weight: bold;
+ }
+ 
+ .token.italic {
+     font-style: italic;
+ }
+ 
+ .token.entity {
+     cursor: help;
+ }
+ 
+ .token.namespace {
+     opacity: .7;
+ }
+ 
+ /* overrides color-values for the Line Numbers plugin
+  * http://prismjs.com/plugins/line-numbers/
+  */
+.line-numbers.line-numbers .line-numbers-rows {
+    border-right-color: #a5a5a5;
+}
+ 
+.line-numbers .line-numbers-rows > span:before {
+    color: #2B91AF;
+}
+ 
+ /* overrides color-values for the Line Highlight plugin
+  * http://prismjs.com/plugins/line-highlight/
+  */
+.line-highlight.line-highlight {
+    background: rgba(193, 222, 241, 0.2);
+    background: -webkit-linear-gradient(left, rgba(193, 222, 241, 0.2) 70%, rgba(221, 222, 241, 0));
+    background: linear-gradient(to right, rgba(193, 222, 241, 0.2) 70%, rgba(221, 222, 241, 0));
+}
+
+ /**
+  * Add back the container background-color, border-radius, padding, margin
+  * and overflow that we removed from <pre>.
+  */
+.gatsby-highlight {
+    background-color: #fdf6e3;
+    border-radius: 0.3em;
+    margin: 0.5em 0;
+    padding: 1em;
+    overflow: auto;
+}
+  
+/**
+ * Remove the default PrismJS theme background-color, border-radius, margin,
+ * padding and overflow.
+ * 1. Make the element just wide enough to fit its content.
+ * 2. Always fill the visible space in .gatsby-highlight.
+ * 3. Adjust the position of the line numbers
+ */
+.gatsby-highlight pre[class*='language-'] {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    overflow: initial;
+    float: left; /* 1 */
+    min-width: 100%; /* 2 */
+}
+
+/**
+ * If you already use line highlighting
+ */
+
+/* Adjust the position of the line numbers */
+.gatsby-highlight pre[class*='language-'].line-numbers {
+    padding-left: 2.8em;
+  }
+  
+/**
+* If you only want to use line numbering
+*/ 
+.gatsby-highlight {
+    background-color: #fdf6e3;
+    border-radius: 0.3em;
+    margin: 0.5em 0;
+    padding: 1em;
+    overflow: auto;
+}
+
+.gatsby-highlight pre[class*='language-'].line-numbers {
+    padding: 0;
+    padding-left: 2.8em;
+    overflow: initial;
+}
+
+.command-line-prompt {
+    border: none !important;
+    margin-right: 0 !important;
+}
+
+.command-line-prompt > span::before {
+    color: #0A9F43 !important;
+    font-size: 20px;
+    content: ' ';
+    display: inline-block !important;
+    padding-right: 0.8em;
+}
+
+.command-line-prompt > span::after {
+    color: red !important;
+    font-size: 20px;
+    content: ' ';
+    display: inline-block;
+    padding-right: 0.8em;
+}
+
+.command-line-prompt > span[data-fancy]::after {
+    content: attr(data-fancy);
+}
+
+/* Prompt for all users */
+.command-line-prompt > span[data-user]::before {
+    content: '[' attr(data-user) '@' attr(data-host) '] ' attr(data-path) ' →';
+}
+
+/* Prompt for root */
+.command-line-prompt > span[data-user='root']::before {
+    content: '[' attr(data-user) '@' attr(data-host) '] #';
+}
+
+.command-line-prompt > span[data-prompt]::before {
+    content: attr(data-prompt);
+}
+
+/* Custom CSS */
+.terminal .window {
+    overflow-y: scroll;
+    max-height: 650px;
+}

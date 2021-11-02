@@ -1,0 +1,18 @@
+.steps .step .step__icon {
+    position: relative;
+}
+
+.steps .step:not(:first-child) .step__icon::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 40px);
+    width: calc( ( var(--container-width) - 200px * var(--count) ) / ( var(--count) - 1 ) ); 
+    height: 2px;
+    background: theme('colors.accent-secondary');
+    display: none;
+
+    @media (min-width: 768px) {
+        display: block;
+    }
+}

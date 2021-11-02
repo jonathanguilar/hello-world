@@ -1,0 +1,23 @@
+.image-3d {
+    --mouse-x: 0;
+    --mouse-y: 0;
+    --coefficient: 10;
+    --compensation: 30deg;
+    position: relative;
+
+    .background {
+        content: '';
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        background: #E9E9E9;
+        border-radius: 5em;
+        transform-style: preserve-3d;
+        transform-origin: center;
+        transform: perspective(750px) rotateX( calc( -1 * calc( calc( var(--mouse-y) / var(--coefficient) ) - var(--compensation) ) ) ) rotateY( calc( var(--mouse-x) / var(--coefficient) - var(--compensation) ) ) ;
+    }
+}

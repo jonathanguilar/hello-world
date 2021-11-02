@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-markdown-remark-frontmatter-slug-js",
+    "path": "/discord/",
+    "result": {"data":{"markdownRemark":{"html":"<p>Discord details</p>","frontmatter":{"slug":"/discord","title":"Discord"}}},"pageContext":{"id":"02c3a1e9-10ba-5072-ad2a-0c57a2c4ddac","frontmatter__slug":"/discord","__params":{"frontmatter__slug":"discord"}}},
+    "staticQueryHashes": []}
