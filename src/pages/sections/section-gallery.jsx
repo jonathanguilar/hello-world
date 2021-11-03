@@ -35,12 +35,9 @@ const SectionGallery = () => {
 
     return (
         <Section className='section-gallery bg-white dark:bg-black dark:text-white'
-            title={<><Highlight>Tools</Highlight> for making modern websites</>}
+            title={<><Highlight>Learn</Highlight> More</>}
             description='
-                    Arcu odio ut sem nulla pharetra diam sit amet. 
-                    Vitae turpis massa sed elementum. Maecenas ultricies 
-                    mi eget mauris pharetra. Ut ornare lectus sit amet est placerat in. 
-            '
+            Try out our other examples to quickly and easily get started with EdgeWorkers'
         >
             <Tabs>
                 <Tab
@@ -51,10 +48,13 @@ const SectionGallery = () => {
                             image: img_design1,
                             skew: Skew.BOTTOM_RIGHT,
                         }}
-                        heading='Lorem ipsum dolor sit amet'
-                        title='Design Your World #1'
+                        // heading='Lorem ipsum dolor sit amet'
+                        title='EdgeKV'
                     >
-                        Arcu odio ut sem nulla pharetra diam sit amet. Vitae turpis massa sed elementum. Maecenas ultricies mi eget mauris pharetra. Ut ornare lectus sit amet est placerat in. 
+                        This example demonstrates how you can use EdgeWorkers and EdgeKV to implement 
+                        a simple dynamic content assembly, where the HTML response is 
+                        dynamically constructed on the edge based on the content of the 
+                        Accept-Language header in the client request.
                     </GalleryPanel>
                 </Tab>
 
@@ -66,10 +66,14 @@ const SectionGallery = () => {
                             image: img_design1,
                             skew: Skew.BOTTOM_RIGHT
                         }}
-                        heading='Lorem ipsum dolor sit amet'
-                        title='Design Your World #2'
+                        // heading='Lorem ipsum dolor sit amet'
+                        title='Multivariate Testing'
                     >
-                        Arcu odio ut sem nulla pharetra diam sit amet. Vitae turpis massa sed elementum. Maecenas ultricies mi eget mauris pharetra. Ut ornare lectus sit amet est placerat in. 
+                        This example enables multivariate testing or simultaneously executed testing. 
+                        To create tests, you’ll select variants that will be randomly assigned to a 
+                        new user and stored in a cookie. 
+                        You’ll pass the variants to the origin via query string. 
+                        You can execute custom actions in the request or response phase of each variant. 
                     </GalleryPanel>
                 </Tab>
 
@@ -102,7 +106,7 @@ const SectionGallery = () => {
                         Arcu odio ut sem nulla pharetra diam sit amet. Vitae turpis massa sed elementum. Maecenas ultricies mi eget mauris pharetra. Ut ornare lectus sit amet est placerat in. 
                     </GalleryPanel>
                 </Tab>
-
+{/* 
                 <Tab
                     icon={theme(iconTodoVariants)}
                 >
@@ -116,9 +120,9 @@ const SectionGallery = () => {
                     >
                         Arcu odio ut sem nulla pharetra diam sit amet. Vitae turpis massa sed elementum. Maecenas ultricies mi eget mauris pharetra. Ut ornare lectus sit amet est placerat in. 
                     </GalleryPanel>
-                </Tab>
+                </Tab> */}
 
-                <Tab
+                {/* <Tab
                     icon={theme(iconFilesVariants)}
                 >
                     <GalleryPanel
@@ -131,7 +135,7 @@ const SectionGallery = () => {
                     >
                         Arcu odio ut sem nulla pharetra diam sit amet. Vitae turpis massa sed elementum. Maecenas ultricies mi eget mauris pharetra. Ut ornare lectus sit amet est placerat in. 
                     </GalleryPanel>
-                </Tab>
+                </Tab> */}
             </Tabs>
         </Section>
     )

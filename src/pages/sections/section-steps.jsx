@@ -11,19 +11,24 @@ import img_files_dark from '../../images/icon-files-dark.svg';
 const SectionSteps = () => {
     return (
         <Section className='section-steps bg-section-inverse pt-12 mt-12 lg:pt-96 text-white'
-            title={<>Learn more about <Highlight>akamai</Highlight></>}
+            title={<>Hello<Highlight>World</Highlight></>}
             description='
-                    Arcu odio ut sem nulla pharetra diam sit amet. 
-                    Vitae turpis massa sed elementum. Maecenas ultricies 
-                    mi eget mauris pharetra. Ut ornare lectus sit amet est placerat in. 
+            Once you have verified that you have met the prerequisites, 
+            you can follow this guide to learn how to get an EdgeWorkers function up and running on your site. 
+ 
             '
         >
             <Steps>
                 <Step
                     icon={img_network_dark}
-                    title='Lorem ipsum'
+                    title='Create an EdgeWorkers ID'
                 >
-                    Vel pharetra vel turpis nunc. Eget duis at tellus at. 
+                    <ul>
+                        <li>Generate a secret key with the EdgeWorkers CLI command: akamai edgeworkers secret</li>
+                        <li>Add a user-defined variable named, EW_DEBUG_KEY to your property.</li>
+                        <li>Add a user-defined variable named, EW_DEBUG_KEY to your property.</li>
+                    </ul>
+                    Activate and manage your Hello World code bundle. 
                 </Step>
 
                 <Step

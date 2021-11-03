@@ -50,8 +50,6 @@ const Home = () => {
                     </Actions>
                 </BubbleCta>
             </Overlap> */}
-
-            {/* <SectionGallery />  */}
             
             {/* <SectionInspirational /> */}
 {/* 
@@ -60,6 +58,8 @@ const Home = () => {
             <SectionQuote />
 
             <SectionSteps />
+            
+            <SectionGallery /> 
 
             {/* <SectionTerminal /> */}
 
