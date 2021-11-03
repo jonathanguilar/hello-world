@@ -10,7 +10,7 @@ import img_files_dark from '../../images/icon-files-dark.svg';
 
 const SectionSteps = () => {
     return (
-        <Section className='section-steps bg-section-inverse pt-12 mt-12 lg:pt-96 text-white'
+        <Section className='section-steps bg-section-inverse pt-12 mt-12 text-white'
             title={<>Hello<Highlight>World</Highlight></>}
             description='
             Once you have verified that you have met the prerequisites, 

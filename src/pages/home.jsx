@@ -61,7 +61,7 @@ const Home = () => {
             
             <SectionGallery /> 
 
-            {/* <SectionTerminal /> */}
+            <SectionTerminal />
 
             {/* <SectionRecommendations /> */}
 {/* 
