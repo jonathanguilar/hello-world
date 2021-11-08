@@ -23,7 +23,7 @@ const Panel = ({ children, author, ...props }) => {
                 { children }
             </p>
 
-            <div className='author flex items-center mt-auto'>
+            <div className='author mt-auto'>
                 <Img className='w-16 h-16 mr-4' image={ author.icon } />
 
                 <div className='details font-semibold'>

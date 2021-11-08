@@ -7,6 +7,7 @@ exports.components = {
   "component---src-pages-home-jsx": () => import("./../../../src/pages/home.jsx" /* webpackChunkName: "component---src-pages-home-jsx" */),
   "component---src-pages-index-js": () => import("./../../../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-markdown-remark-frontmatter-slug-js": () => import("./../../../src/pages/{MarkdownRemark.frontmatter__slug}.js" /* webpackChunkName: "component---src-pages-markdown-remark-frontmatter-slug-js" */),
+  "component---src-pages-sections-paragraph-section-jsx": () => import("./../../../src/pages/sections/paragraph-section.jsx" /* webpackChunkName: "component---src-pages-sections-paragraph-section-jsx" */),
   "component---src-pages-sections-section-gallery-jsx": () => import("./../../../src/pages/sections/section-gallery.jsx" /* webpackChunkName: "component---src-pages-sections-section-gallery-jsx" */),
   "component---src-pages-sections-section-hero-jsx": () => import("./../../../src/pages/sections/section-hero.jsx" /* webpackChunkName: "component---src-pages-sections-section-hero-jsx" */),
   "component---src-pages-sections-section-inspirational-jsx": () => import("./../../../src/pages/sections/section-inspirational.jsx" /* webpackChunkName: "component---src-pages-sections-section-inspirational-jsx" */),

@@ -9,111 +9,37 @@ import img_author from '../../images/author.svg';
 const SectionRecommendations = () => {
     return (
         <Section className='section-recommendations bg-section-primary text-black dark:bg-black dark:text-white'
-            title={<>Used by <Highlight>400,000+</Highlight> developers</>}
-            description='
-                    Arcu odio ut sem nulla pharetra diam sit amet. 
-                    Vitae turpis massa sed elementum. Maecenas ultricies 
-                    mi eget mauris pharetra. Ut ornare lectus sit amet est placerat in. 
-            '
+            title={<><Highlight>Build, secure, and optimize</Highlight> your services and applications with EdgeWorkers.</>}
         >
             <Slider>
                 <Panel
                     author={{
-                        icon: img_author,
-                        name: 'John Doe',
-                        title: 'Lorem ipsum dolor'
+                        // icon: img_author,
+                        name: 'Deploy JavaScript to the edge.',
+                        // title: 'Deploy JavaScript to the edge.'
                     }}
                 >
-                    Volutpat odio facilisis mauris sit amet massa vitae tortor. Faucibus turpis in eu mi bibendum neque egestas. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. 
+                    Our edge servers support the V8 runtime engine, so compute is now even closer to your end users and their devices. You can now deploy your JavaScript services to the edge to make them faster, more reliable, and more secure - without having to worry about infrastructure or scale.
                 </Panel>
 
                 <Panel
                     author={{
-                        icon: img_author,
-                        name: 'John Doe',
-                        title: 'Lorem ipsum dolor'
+                        // icon: img_author,
+                        name: 'Avoid unnecessary network hops.',
+                        // title: 'Lorem ipsum dolor'
                     }}
                 >
-                    Volutpat odio facilisis mauris sit amet massa vitae tortor. Faucibus turpis in eu mi bibendum neque egestas. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. 
+                    With Akamai’s edge compute stack, you can run serverless functions directly on the edge, allowing you to shift compute closer to the consumer so you can provide faster applications and services.
                 </Panel>
 
                 <Panel
                     author={{
-                        icon: img_author,
-                        name: 'John Doe',
-                        title: 'Lorem ipsum dolor'
+                        // icon: img_author,
+                        name: 'Scale your applications elastically.',
+                        // title: 'Lorem ipsum dolor'
                     }}
                 >
-                    Volutpat odio facilisis mauris sit amet massa vitae tortor. Faucibus turpis in eu mi bibendum neque egestas. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. 
-                </Panel>
-
-                <Panel
-                    author={{
-                        icon: img_author,
-                        name: 'John Doe',
-                        title: 'Lorem ipsum dolor'
-                    }}
-                >
-                    Ultrices eros in cursus turpis massa tincidunt. Donec ac odio tempor orci dapibus ultrices. Blandit aliquam etiam erat velit scelerisque in dictum. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc. Vel pretium lectus quam id Leo in vitae turpis.
-                </Panel>
-
-                <Panel
-                    author={{
-                        icon: img_author,
-                        name: 'John Doe',
-                        title: 'Lorem ipsum dolor'
-                    }}
-                >
-                    Volutpat odio facilisis mauris sit amet massa vitae tortor. Faucibus turpis in eu mi bibendum neque egestas. 
-                </Panel>
-                <Panel
-                    author={{
-                        icon: img_author,
-                        name: 'John Doe',
-                        title: 'Lorem ipsum dolor'
-                    }}
-                >
-                    Volutpat odio facilisis mauris sit amet massa vitae tortor. Faucibus turpis in eu mi bibendum neque egestas. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. 
-                </Panel>
-
-                <Panel
-                    author={{
-                        icon: img_author,
-                        name: 'John Doe',
-                        title: 'Lorem ipsum dolor'
-                    }}
-                >
-                    Volutpat odio facilisis mauris sit amet massa vitae tortor. Faucibus turpis in eu mi bibendum neque egestas. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. 
-                </Panel>
-
-                <Panel
-                    author={{
-                        icon: img_author,
-                        name: 'John Doe',
-                        title: 'Lorem ipsum dolor'
-                    }}
-                >
-                    Volutpat odio facilisis mauris sit amet massa vitae tortor. Faucibus turpis in eu mi bibendum neque egestas. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. 
-                </Panel>
-
-                <Panel
-                    author={{
-                        icon: img_author,
-                        name: 'John Doe',
-                        title: 'Lorem ipsum dolor'
-                    }}
-                >
-                    Ultrices eros in cursus turpis massa tincidunt. Donec ac odio tempor orci dapibus ultrices. Blandit aliquam etiam erat velit scelerisque in dictum. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero nunc. Vel pretium lectus quam id Leo in vitae turpis.
-                </Panel>
-
-                <Panel
-                    author={{
-                        icon: img_author,
-                        name: 'John Doe',
-                        title: 'Lorem ipsum dolor'
-                    }}
-                >
-                    Volutpat odio facilisis mauris sit amet massa vitae tortor. Faucibus turpis in eu mi bibendum neque egestas. 
+                    Create and deploy microservices across more than 250K edge servers deployed around the globe. When your development teams activate code at the edge, they push data, insights, and logic to the servers closest to your end users.
                 </Panel>
             </Slider>
         </Section>

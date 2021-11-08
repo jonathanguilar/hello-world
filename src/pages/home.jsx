@@ -16,13 +16,15 @@ import SectionQuote from './sections/section-quote';
 import SectionTerminal from './sections/section-terminal';
 import SectionRecommendations from './sections/section-recommendations';
 import SectionLegend from './sections/section-legend';
+import ParagraphSection from './sections/paragraph-section';
 
 const Home = () => {
     
     return (
         <Layout>
             <SectionHero />
-
+            <SectionRecommendations />
+            <ParagraphSection />
             {/* <Overlap offset='-mb-20 lg:-mb-96'>
                 <Img image={img_dashboard} />
             </Overlap>  */}
@@ -57,14 +59,13 @@ const Home = () => {
 
             <SectionQuote />
 
-            <SectionSteps />
+            {/* <SectionSteps /> */}
             
             <SectionGallery /> 
 
             <SectionTerminal />
-
-            {/* <SectionRecommendations /> */}
 {/* 
+
             <SectionLegend /> */}
         </Layout>
     )

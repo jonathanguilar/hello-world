@@ -135,17 +135,17 @@ const Header = () => {
                             </a>
                         </Item>
 
-                        {/* <Item>
+                        <Item>
                             <Actions classUl='lg:ml-12 w-full flex-col lg:flex-row items-end lg:items-center' classLi='mt-4 lg:mt-0 w-full'>
-                                <button className='w-full btn btn--slide-up'>
+                                {/* <button className='w-full btn btn--slide-up'>
                                     Mailing List
                                 </button>
-                                
-                                <button className='w-full btn btn--slide-down bg-accent-secondary border-accent-secondary text-white'>
-                                    Download
-                                </button> 
+                                 */}
+                                {/* <button className='w-full btn btn--slide-down bg-accent-secondary border-accent-secondary text-white'>
+                                    EdgeWorkers
+                                </button>  */}
                             </Actions>
-                        </Item> */}
+                        </Item>
                     </NavBar>
                 </div>
             </div>

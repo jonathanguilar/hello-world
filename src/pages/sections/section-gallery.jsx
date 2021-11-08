@@ -105,37 +105,7 @@ const SectionGallery = () => {
                     >
                         Arcu odio ut sem nulla pharetra diam sit amet. Vitae turpis massa sed elementum. Maecenas ultricies mi eget mauris pharetra. Ut ornare lectus sit amet est placerat in. 
                     </GalleryPanel>
-                </Tab>
-{/* 
-                <Tab
-                    icon={theme(iconTodoVariants)}
-                >
-                    <GalleryPanel
-                        image={{
-                            image: img_design1,
-                            skew: Skew.BOTTOM_RIGHT
-                        }}
-                        heading='Lorem ipsum dolor sit amet'
-                        title='Design Your World #5'
-                    >
-                        Arcu odio ut sem nulla pharetra diam sit amet. Vitae turpis massa sed elementum. Maecenas ultricies mi eget mauris pharetra. Ut ornare lectus sit amet est placerat in. 
-                    </GalleryPanel>
-                </Tab> */}
-
-                {/* <Tab
-                    icon={theme(iconFilesVariants)}
-                >
-                    <GalleryPanel
-                        image={{
-                            image: img_design1,
-                            skew: Skew.BOTTOM_RIGHT
-                        }}
-                        heading='Lorem ipsum dolor sit amet'
-                        title='Design Your World #6'
-                    >
-                        Arcu odio ut sem nulla pharetra diam sit amet. Vitae turpis massa sed elementum. Maecenas ultricies mi eget mauris pharetra. Ut ornare lectus sit amet est placerat in. 
-                    </GalleryPanel>
-                </Tab> */}
+                </Tab>      
             </Tabs>
         </Section>
     )

@@ -22,7 +22,7 @@ const SectionHero = () => {
             and manipulate requests and responses at the edge.'
         >   
             <Actions className='justify-center'>
-                <button className='btn 
+                <a href="https://www.akamai.com/blog" className='btn 
                     btn--slide-up 
                     bg-accent-secondary 
                     border-accent-secondary 
@@ -31,7 +31,7 @@ const SectionHero = () => {
                     mr-6
                 '>
                     Get Started
-                </button>
+                </a>
 
                     <GitHubButton
                         href='https://github.com/ntkme/github-buttons'
@@ -41,7 +41,7 @@ const SectionHero = () => {
                         aria-label='Star ntkme/github-buttons on GitHub'
                         data-color-scheme={theme(githubButtonVariants)}
                     >
-                        Star
+                        Clone
                     </GitHubButton>
             </Actions>
         </Section>

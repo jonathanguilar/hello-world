@@ -9,6 +9,7 @@ exports.components = {
   "component---src-pages-home-jsx": preferDefault(require("/Users/jonaguil/Desktop/hello-world/src/pages/home.jsx")),
   "component---src-pages-index-js": preferDefault(require("/Users/jonaguil/Desktop/hello-world/src/pages/index.js")),
   "component---src-pages-markdown-remark-frontmatter-slug-js": preferDefault(require("/Users/jonaguil/Desktop/hello-world/src/pages/{MarkdownRemark.frontmatter__slug}.js")),
+  "component---src-pages-sections-paragraph-section-jsx": preferDefault(require("/Users/jonaguil/Desktop/hello-world/src/pages/sections/paragraph-section.jsx")),
   "component---src-pages-sections-section-gallery-jsx": preferDefault(require("/Users/jonaguil/Desktop/hello-world/src/pages/sections/section-gallery.jsx")),
   "component---src-pages-sections-section-hero-jsx": preferDefault(require("/Users/jonaguil/Desktop/hello-world/src/pages/sections/section-hero.jsx")),
   "component---src-pages-sections-section-inspirational-jsx": preferDefault(require("/Users/jonaguil/Desktop/hello-world/src/pages/sections/section-inspirational.jsx")),
